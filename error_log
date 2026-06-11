@@ -1,0 +1,66 @@
+[10-Jun-2026 12:08:11 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dm81079_z18.properties' doesn't exist in /home/dm81079/public_html/z20/index.php:36
+Stack trace:
+#0 /home/dm81079/public_html/z20/index.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/index.php on line 36
+[10-Jun-2026 12:09:12 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dm81079_z18.properties' doesn't exist in /home/dm81079/public_html/z20/index.php:36
+Stack trace:
+#0 /home/dm81079/public_html/z20/index.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/index.php on line 36
+[10-Jun-2026 12:11:58 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dm81079_z18.properties' doesn't exist in /home/dm81079/public_html/z20/index.php:40
+Stack trace:
+#0 /home/dm81079/public_html/z20/index.php(40): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/index.php on line 40
+[10-Jun-2026 12:20:49 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dm81079_z18.properties' doesn't exist in /home/dm81079/public_html/z20/index.php:36
+Stack trace:
+#0 /home/dm81079/public_html/z20/index.php(36): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/index.php on line 36
+[10-Jun-2026 12:28:38 Europe/Warsaw] PHP Warning:  Undefined variable $link in /home/dm81079/public_html/z20/create_property_form.php on line 3
+[10-Jun-2026 12:28:38 Europe/Warsaw] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/dm81079/public_html/z20/create_property_form.php:3
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(3): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 3
+[10-Jun-2026 12:35:12 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dm81079_z18.property_categories' doesn't exist in /home/dm81079/public_html/z20/create_property_form.php:156
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(156): mysqli_query()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 156
+[10-Jun-2026 13:04:44 Europe/Warsaw] PHP Warning:  Undefined array key "utilities_info" in /home/dm81079/public_html/z20/create_property_form.php on line 59
+[10-Jun-2026 13:04:44 Europe/Warsaw] PHP Warning:  Undefined array key "protected_area_info" in /home/dm81079/public_html/z20/create_property_form.php on line 60
+[10-Jun-2026 13:04:44 Europe/Warsaw] PHP Warning:  Undefined array key "land_price_info" in /home/dm81079/public_html/z20/create_property_form.php on line 61
+[11-Jun-2026 12:21:17 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'filename' doesn't have a default value in /home/dm81079/public_html/z20/create_property_form.php:149
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(149): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 149
+[11-Jun-2026 12:21:49 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'filename' doesn't have a default value in /home/dm81079/public_html/z20/create_property_form.php:153
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(153): mysqli_stmt_execute()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 153
+[11-Jun-2026 12:40:08 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:11 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:16 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:17 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:39 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:40 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:40:41 Europe/Warsaw] PHP Warning:  Undefined array key "area_m2" in /home/dm81079/public_html/z20/index.php on line 121
+[11-Jun-2026 12:48:22 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'area_m2' in 'INSERT INTO' in /home/dm81079/public_html/z20/create_property_form.php:65
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(65): mysqli_prepare()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 65
+[11-Jun-2026 12:48:47 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'area_m2' in 'INSERT INTO' in /home/dm81079/public_html/z20/create_property_form.php:70
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(70): mysqli_prepare()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 70
+[11-Jun-2026 12:50:21 Europe/Warsaw] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/dm81079/public_html/z20/create_property_form.php:89
+Stack trace:
+#0 /home/dm81079/public_html/z20/create_property_form.php(89): mysqli_stmt_bind_param()
+#1 {main}
+  thrown in /home/dm81079/public_html/z20/create_property_form.php on line 89
